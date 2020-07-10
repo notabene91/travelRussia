@@ -1,0 +1,24 @@
+.lead__roadway {
+    max-width: 100%;
+    margin-bottom: 11px;
+    object-fit: fill;
+}
+
+@media screen and (max-width: 1025px) {
+    .lead__roadway {
+        margin-bottom: 14px;
+        max-height: 554px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__roadway {  
+        max-height: 420px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__roadway {
+        margin-bottom: 8px;
+    }
+}

@@ -1,0 +1,26 @@
+.card__title {
+    display: flex;
+    align-items: flex-end;
+    margin: 0px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card__title {
+        font-size: 45px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .card__title {
+        margin: auto;
+        width: 91%;
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 32px;
+    }
+}

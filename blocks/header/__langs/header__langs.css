@@ -1,0 +1,12 @@
+@import url(./__lang/header__lang.css);
+
+.header__langs {
+    display: flex;
+    list-style-type: none;
+    margin: 19px 0 0 0;
+    padding: 0;
+}
+
+.header__langs:last-child{
+    margin-right: 0;
+}

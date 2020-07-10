@@ -1,0 +1,39 @@
+@import url(./__container/video__container.css);
+
+
+.video {
+    max-width: 82.22%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .video {
+        max-width: 92%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        max-width: 94%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .video {
+        max-width: 91%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video {
+        max-width: 90%;
+    }
+}

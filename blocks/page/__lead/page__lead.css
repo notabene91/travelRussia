@@ -1,0 +1,27 @@
+.page__lead {
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width:1024px) {
+    .page__lead {
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page__lead {
+        margin-bottom: 75px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .page__lead {
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .page__lead {
+        margin-bottom: 90px;
+    }
+}

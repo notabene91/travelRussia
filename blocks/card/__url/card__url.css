@@ -1,0 +1,8 @@
+.card__url {
+    text-decoration-line: underline;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+

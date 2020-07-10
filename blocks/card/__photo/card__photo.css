@@ -1,0 +1,24 @@
+.card__photo {
+    max-width: 100%;
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .card__photo {
+        max-width: 96.49%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__photo {
+        max-width: 96.59%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .card__photo {
+        max-width: 100%;
+    }
+}

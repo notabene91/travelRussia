@@ -1,0 +1,21 @@
+.page__places {
+    margin-bottom: 110px;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__places {
+         margin-bottom: 102px;
+    }
+ }
+
+@media screen and (max-width: 426px) {
+   .page__places {
+        margin-bottom: 78px;
+   }
+}
+
+@media screen and (max-width: 426px) {
+    .page__places {
+         margin-bottom: 98px;
+    }
+ }

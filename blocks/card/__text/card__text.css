@@ -1,0 +1,7 @@
+@media screen and (max-width:426px) {
+    .card__text{
+        padding-top: 24px;
+        margin: 0 auto;
+        max-width: 91%;
+    }
+}

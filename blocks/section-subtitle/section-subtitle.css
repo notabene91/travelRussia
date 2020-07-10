@@ -1,0 +1,30 @@
+.section-subtitle {
+    max-width: 55%  ;
+    margin: 0 auto 64px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    .section-subtitle {
+        max-width: 69%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section-subtitle {
+        max-width: 99%;
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .section-subtitle {
+        max-width: 100%;            
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 24px;
+    }
+}

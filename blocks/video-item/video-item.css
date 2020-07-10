@@ -1,0 +1,68 @@
+@import url(./__subtitle/video-item__subtitle.css);
+@import url(./__timing/video-item__timing.css);
+@import url(./__title/video-item__title.css);
+@import url(./__button/video-item__button.css);
+@import url(./_kamchatka/video-item__kamchatka.css);
+@import url(./_observ/video-item__observ.css);
+
+.video-item {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    position: relative;
+    min-width: calc((100% - 18px)/2);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration-line: none;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.video-item::after {
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .video-item { 
+        min-width: calc((100% - 16px)/2);
+    }
+}
+
+@media screen and (max-width:880px) {
+    .video-item { 
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width:725px) {
+    .video-item {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .video-item {
+        min-width: 90%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .video-item {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .video-item { 
+        padding: 16px;
+    }
+}

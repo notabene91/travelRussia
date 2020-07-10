@@ -1,0 +1,16 @@
+@import url(./__lang_active/header__lang_active.css);
+
+.header__lang {
+    margin-right: 18px;
+}
+
+.header__lang:last-of-type {
+    margin-right: 0;
+}
+
+
+@media screen and (max-width: 425px) {
+    .header__lang {
+        margin-right: 16px;
+    }
+}

@@ -1,0 +1,16 @@
+.page__comments {
+    margin-bottom: 94px;
+}
+
+@media screen and (max-width: 426px) {
+    .page__comments {
+        margin-bottom: 48px;
+    }
+}
+
+
+@media screen and (max-width: 325px) {
+    .page__comments {
+        margin-bottom: 64px;
+    }
+}

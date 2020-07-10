@@ -1,0 +1,24 @@
+@import url(./__header/page__header.css);
+@import url(./__lead/page__lead.css);
+@import url(./__intro/page__intro.css);
+@import url(./__photo-grid/page__photo-grid.css);
+@import url(./__card/page__card.css);
+@import url(./__places/page__places.css);
+@import url(./__video/page__video.css);
+@import url(./__comments/page__comments.css);
+@import url(./__cover/page__cover.css);
+@import url(./__footer/page__footer.css);
+
+.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #2A2C2F;
+    color: #fff;
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
